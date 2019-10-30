@@ -1,0 +1,101 @@
+body {
+  text-align: center;
+  background-color: #DBECF6;
+  font-family:
+}
+
+h1 {
+  color: #660000;
+  font-family: arial;
+  font-style: strong;
+}
+
+h2 {
+  color: #221177;
+  font-family: arial;
+  font-style: strong;
+}
+
+
+
+p {
+  font-family: arial
+}
+
+img {
+  border-radius: 50%;
+}
+
+#the_link {
+  color:#FD1015;
+  text-decoration: none;
+}
+
+#the_link:hover {
+  color: black;
+}
+
+a.icon:hover {
+  color: #00FF09;
+}
+ul>li {
+  list-style: none;
+  display: inline;
+}
+
+div.container{
+  margin: 0 auto;
+  width: auto;
+
+}
+
+div.card {
+  background-color: #FFFFFF;
+  margin: 40px ;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px
+  rgba(0,0,0,0.7);
+}
+
+a.bouton {
+  background-color: #F0C9C9;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 4px;
+  color: black;
+}
+
+a.bouton:hover{
+  background-color: #F1F0CF;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}

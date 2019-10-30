@@ -1,7 +1,7 @@
 body {
   text-align: center;
-  background-color: #DBECF6;
-  font-family:
+  background: linear-gradient(to top left,white,black);
+  min-height: 100vh;
 }
 
 h1 {
@@ -43,14 +43,13 @@ ul>li {
   display: inline;
 }
 
-div.container{
+.container{
   margin: 0 auto;
-  width: auto;
 
 }
 
-div.card {
-  background-color: #FFFFFF;
+.card {
+  background: linear-gradient(white,grey);
   margin: 40px ;
   padding: 20px;
   border-radius: 10px;
